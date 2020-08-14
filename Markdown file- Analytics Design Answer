@@ -1,0 +1,34 @@
+*Analytics Design Answer
+
+***According to the HEAP analytical framework, I would like to record the following user behaviour: 
+
+***The User-level properties such as the region user traffic is coming from, which would allow me to analyse the type of content being consumed in different areas, 
+allowing for more relevant content creation for the reader. 
+
+***I would then record session-level properties such as amount of time a user spends on the homepage before moving on to a different part of the website- 
+which would be able to identify whether readers log on with no prior motives, or if they had a specific article they wanted to read before accessing the app.  
+
+***Lastly, I would record first touch properties such as the first time a user ever accessed the app, and whether they came from another app or website. 
+It would assist in recording whereabouts traffic is coming from.
+
+
+
+
+*Database Evaluation Task
+
+***1.)This is an image of my minimal database structure for an event's company:
+https://i.ibb.co/dppLPz1/suveraeventsdatabasestructure.jpg
+
+***2.) This is my events registration database flow:
+https://i.ibb.co/yhKF2vT/suvera-dataflow.jpg
+
+*** 3.) The dataflow for a cancellation/refund would start with the user logging into their account using their username and password. 
+They would then access their personal account from the homepage, where they would view their booking history.  
+
+***The user would then choose the event they would like to cancel from the event history list, and an alert would pop-up to confirm if they were sure of the cancellation, 
+with the options of yes and no. 
+They would re-confirm the cancellation by clicking ‘yes’, and a screen affirming the refund amount and timeframe, would be displayed as the final step.  
+
+ 
+
+ 
